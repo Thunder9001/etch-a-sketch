@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    flex-shrink: 0;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    margin: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
